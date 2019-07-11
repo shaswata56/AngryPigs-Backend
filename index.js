@@ -2,8 +2,10 @@ var app =  require('express')();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 var players = [];
+var port = process.env.PORT | 8080;
+var host = process.env.host | '0.0.0.0';
 
-server.listen(8080, () => {
+server.listen(host, port, () => {
     console.log("Server is up...");
 });
 

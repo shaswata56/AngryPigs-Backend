@@ -4,7 +4,7 @@
   "description": "Backend for online multiplayer game AngryPigs.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Shaswata Das",
   "license": "GPL-2.0",
