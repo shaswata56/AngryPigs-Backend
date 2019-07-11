@@ -4,12 +4,13 @@
   "description": "Backend for online multiplayer game AngryPigs.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node node_modules/nodemon/bin/nodemon index.js"
   },
   "author": "Shaswata Das",
   "license": "GPL-2.0",
   "dependencies": {
     "express": "^4.17.1",
+    "nodemon": "^1.19.1",
     "socket.io": "^2.2.0"
   }
 }
