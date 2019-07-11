@@ -5,7 +5,7 @@ var players = [];
 var port = process.env.PORT | 8080;
 var host = process.env.host | '0.0.0.0';
 
-server.listen(host, port, () => {
+server.listen(port, host, () => {
     console.log("Server is up...");
 });
 
