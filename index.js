@@ -3,7 +3,7 @@ var server = require('http').Server(app);
 var io = require('socket.io')(server);
 var players = [];
 var port = process.env.PORT || 8080;
-var host = '192.168.31.56' || process.env.host || '0.0.0.0';
+var host = process.env.host || '0.0.0.0';
 
 server.listen(port, host, () => {
     console.log("Server is up...");
